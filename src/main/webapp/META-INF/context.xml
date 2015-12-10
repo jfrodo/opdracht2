@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/OUEnqueteservice">
+    <Resource name="jdbc/WebEnquetes"
+              type="javax.sql.DataSource"
+              driverClassName="com.mysql.jdbc.Driver"
+              url="jdbc:mysql://localhost:3306/webenquetes?autoReconnect=true"
+              username="webapps"
+              password="serverkant"
+              maxActive="4"
+              maxIdle="2"
+              maxWait="5000"
+              logAbandoned="true"
+              removeAbandoned="true"
+              removeAbandonedTimeout="60"
+     />
+</Context>
